@@ -23,5 +23,5 @@ echo.
 echo.========================================================================
 echo.
 
-"%JAVA%" %JAVA_OPTS% -cp lib/*;. com.rameses.osiris3.platform.OSBootStrap
+"%JAVA%" %JAVA_OPTS% -cp lib/ext/%PROCESSOR_ARCHITECTURE%;lib/*;. com.rameses.osiris3.platform.OSBootStrap
 endlocal
