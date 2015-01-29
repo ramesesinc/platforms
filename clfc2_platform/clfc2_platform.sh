@@ -1,8 +1,6 @@
 #!/bin/sh
 # This will be the run directory
 RUN_DIR=`pwd`
-# Move up to the parent directory
-cd ..
 # This will the base directory
 BASE_DIR=`pwd`
 
@@ -33,3 +31,4 @@ echo "========================================================================"
 echo ""
 
 $JAVA $JAVA_OPTS -classpath lib/*:. com.rameses.osiris3.platform.OSBootStrap
+
